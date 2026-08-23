@@ -32,7 +32,7 @@ function renderizartarefas() {
       listaTarefas.innerHTML = ""      
 
       let i = 0 //iterador
-      for (i; i < tarefas.lenght; i++) {
+      for (i; i < tarefas.length; i++) {
             let novaTarefa = document.createElement("li")
             novaTarefa.textContent = tarefas[i]
             listaTarefas.appendChild(novaTarefa)
